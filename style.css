@@ -1,0 +1,79 @@
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* I have font size 16 here because I think it looks better smaller for mobile,
+I made the font bigger for laptops/desktops */
+html, body {
+    font-size: 16px;
+}
+
+/* this is the code for my background color*/
+body{
+    background-color: whitesmoke;
+    }
+
+/*this is the code for my image*/
+figure {
+    max-width: 1200px;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* this class is so the margins aren't so tight in mobile*/
+.full{
+    margin: 20px;
+    max-width: 880px;
+}
+
+/*this is the code for the headline*/
+h1 {
+    border-width: 5px;
+    padding: 5px;
+    text-align: auto;
+    font-size: 35px;
+}
+
+/*This is the code for the dek*/
+h2 {
+    margin-bottom: -15px;
+    margin-top: -15px;
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+/* this code is to make the spacing look better for my byline*/
+h6{
+    margin: 5px;
+    font-weight: normal;
+}
+.byline{
+    margin: 25px;
+}
+
+
+
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+
+    body {
+        background-color: whitesmoke;
+        font-size: 20px;
+        }
+    
+    .full{
+        margin: auto;
+    }
+}
